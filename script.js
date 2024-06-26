@@ -1,5 +1,5 @@
 document.getElementById("btn").addEventListener("click", display);
-//let value = document.getElementById("ip").value;
+
 function display() {
   return new Promise((resolve, reject) => {
     let value = document.getElementById("ip").value;
@@ -37,5 +37,3 @@ function display() {
     }, 1000)
 	})
 }
-
-  
